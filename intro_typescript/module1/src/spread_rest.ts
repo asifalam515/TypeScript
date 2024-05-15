@@ -22,4 +22,23 @@ const greetFriend=(...friends:string[])=>{
 console.log(`HI ${friends1} ${friends2}`);
 }
 greetFriend('abul','babul','kabul','habul')
+
+const user={
+    name:{
+        firstName:"asibul ",
+        lastName:"alam",
+        
+    },
+    age :23,
+    address:"kushtia",
 }
+const {age,
+    name:{firstName:fname},
+
+address}=user
+}
+
+// array destructure
+const myFriends =['najmul','maruf','sourov']
+const [bestfrn,freefrn,cmu]=myFriends
+const [,,bodyduilder]=myFriends
