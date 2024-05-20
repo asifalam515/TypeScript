@@ -25,4 +25,22 @@
         age:23,
         role:"manager",
     }
+
+
+
+    // array 
+    type Roll1 = number[]
+    interface Roll2{
+        [index : number] :  number
+    }
+    const rollNo:Roll1 = [12,3,43,4,3]
+
+
+    type Add =(num1:number,num2:number )=>number
+    interface Add2{
+        (num1:number,num2:number):number
+    }
+    const add:Add= (num1,num2) =>{
+        return num1+ num2
+    }
 }
